@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #ffffff;
+	padding-left: 35%;
+	padding-right: 35%;
+	padding-top: 5%;
+	font-family: Arial, Helvetica;
+}
+
+form {
+	border: 3px solid #dddddde6;
+	background-color: rgba(255, 255, 255);
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 6%;
+	box-shadow: 0px 0px 5px rgb(100, 99, 99);
+}
+
+h1 {
+	text-align: center;
+	text-shadow: 1px 1px 1px #555753ab;
+}
+
+label {
+	float: left;
+	width: 150px;
+	background-color: #9a9a9a;
+}
+
+input[type=text], input[type=email], input[type=password] {
+	width: 100%;
+	padding: 5px;
+	margin: 2% 0%;
+	border: none;
+	border-top: none;
+	border-bottom: 1px dotted #988888;
+	border-radius: 5px;
+	line-height: 30px;
+	outline: none;
+}
+
+button {
+	background: linear-gradient(to right, #00deff, #0034a9);
+	/* box-shadow: 0px 0px 1px rgb(19, 67, 175); */
+	border-radius: 50px;
+	color: #f9f4f4;
+	padding: 14px 20px;
+	margin: 30px;
+	margin-left: 65px;
+	border: none;
+	cursor: pointer;
+	width: 55%;
+	outline: none;
+}
+
+button:hover {
+	opacity: 0.7s;
+}
+
+.errMsg {
+	color: red;
+	float: right;
+}
+
+.register {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: smaller;
+	padding-bottom: 10px;
+}

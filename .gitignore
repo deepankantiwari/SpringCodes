@@ -25,5 +25,17 @@
 /springdemo/.classpath
 /springdemo/.project
 /springdemo/target
-/EmployeeLogin/src/test
+/springdemo/src/test
+
+/EmployeeDBExample/.settings
+/EmployeeDBExample/.classpath
+/EmployeeDBExample/.project
+/EmployeeDBExample/target
+/EmployeeDBExample/src/test
+
+/LoginRegistration/.settings
+/LoginRegistration/.classpath
+/LoginRegistration/.project
+/LoginRegistration/target
+/LoginRegistration/src/test
 
